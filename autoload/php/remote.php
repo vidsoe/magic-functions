@@ -658,6 +658,16 @@ if(!class_exists('Magic_Response')){
 		}
 
 		/**
+		 * @return string
+		 */
+	    public function json_param($name = ''){
+			if(!array_key_exists($name, $this->json_params)){
+				return '';
+			}
+			return $this->json_params[$name];
+		}
+
+		/**
 		 * @return array
 		 */
 	    public function json_params(){

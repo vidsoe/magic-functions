@@ -4,7 +4,7 @@
  * Plugin URI: https://magicfunctions.com/
  * Description: A magical collection of functions for WordPress, plugins and themes.
  * Version: 0.3.31
- * Requires at least: 5.6
+ * Requires at least: 5.9
  * Requires PHP: 5.6
  * Author: Vidsoe
  * Author URI: https://vidsoe.com/
